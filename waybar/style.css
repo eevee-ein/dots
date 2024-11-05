@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "FantasqueSansMNerdFont";
+    font-family: "FantasqueSansM Nerd Font";
     font-size: 13px;
     min-height: 0;
 }
@@ -13,7 +13,7 @@ window#waybar {
 
 #window {
     font-weight: bold;
-    font-family: "FantasqueSansMNerdFont";
+    font-family: "FantasqueSansM Nerd Font";
 }
 
 /**
@@ -39,13 +39,13 @@ window#waybar {
     border-bottom: 3px solid white;
 }
 
-#clock, #battery, #cpu, #memory, #pulseaudio, #tray, #temperature, #backlight{
+#clock, #battery, #cpu, #memory, #pulseaudio, #temperature, #backlight{
     padding: 0 3px;
     margin: 0 2px;
 }
 
 #clock {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 #battery {
@@ -94,6 +94,8 @@ window#waybar {
 }
 
 #tray {
+   padding: 0 3px;
+   margin: 0 2px;
 }
 
 #backlight {
